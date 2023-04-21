@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="los paltos mas fomsos del peru por su increible delicia">
+  <meta name="keywords" content="platos tipicos, comida tradicional, plato de peru, comida peruana">
+  <meta name="author" content="Riszart Daryl">
+  <meta name="robots" content="all"/>
+  <meta name="copyright" content="informacion de diversos sitios wed e imagenes de internet - diseño modificado por el autor">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>R-FOOD</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Genos:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Play:wght@400;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body class=" bg-white select-none">
+  <nav class="fixed top-0 w-full h-14 bg-gray-950 flex justify-between items-center z-20">
+    <div class="text-2xl w-20"><span class="text-orange-500 font-bold pl-3">RISZFOOD</span></div>
+    <div class="lg:hidden" id="menu-burger"><img src="./svg/icons8-menu-48.svg" alt="icono de menu de la pagina RiszFood"></div>
+    <div id="list-menu" class="hidden text-white lg:flex lg:flex-row lg:top-0 lg:space-x-10 lg:mr-5 lg:w-auto lg:right-0 lg:space-y-0 lg:py-0 lg:px-0 flex-col absolute lg:relative top-14 bg-gray-950 w-full space-y-5 py-5 px-5">
+      <a class="capitalize text-yellow-300 font-semibold border-b-2 border-yellow-300 hover:text-orange-400 hover:border-orange-400" href="#conten-elements">platos disponibles</a>
+      <a class="capitalize text-yellow-300 font-semibold border-b-2 border-yellow-300 hover:text-orange-400 hover:border-orange-400" href="#contact">comunicate con nosotros</a>
+      <a class="capitalize text-yellow-300 font-semibold border-b-2 border-yellow-300 hover:text-orange-400 hover:border-orange-400" href="#create">sobre el desarrollador</a>
+    </div>
+  </nav>
+  <header class="mt-14 h-128 pt-5 w-full bg-inicio bg-cover flex flex-col items-center relative">
+    <h1 class="text-orange-500 font-Pacifico text-4xl lg:text-7xl font-bold absolute bottom-36 lg:bottom-20 bg-black px-10 py-5 bg-opacity-50">RiszFood Perú</h1>
+    <div class="flex flex-col lg:space-y-20 gap-5 bg-opacity-50 bg-black px-10 py-5">
+      <p class="text-orange-500 font-Pacifico text-2xl lg:text-7xl font-bold bottom-20 uppercase text-center">pasaporte al sabor</p>
+      <span class="text-white font-sans text-sm lg:text-2xl bottom-20 uppercase text-center">la mejor comida peruana</span>
+    </div>
+  </header>
+  <div class="lg:w-full h-10 bg-yellow-400 flex items-center pl-5">
+    <p class="text-black text-xl uppercase font-bold">disfrute nuestro catalogo</p>
+  </div>
+  <main class=" bg-black">
+    <section class="pt-3 lg:grid lg:grid-cols-3 gap-y-5 overflow-hidden" id="conten-elements">
+      <!-- <article class="article">
+        <section class="top-article"></section>
+        <section class="botton-article">
+          <h2 class="title-h2">ceviche</h2>
+          <p class="text-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, rem ullam! Eligendi cum.</p>
+          <p class="price-p">S/.<span>120</span></p>
+          <div class="content-start-class"><span class="start-class">&star;&starf;&star;&star;&star;</span><span class="resen"> / 35 reseñas</span></div>
+        </section>
+      </article> -->
+    </section>
+    <div class="w-full h-10 bg-yellow-400 flex items-center mt-5 pl-5">
+      <p class="text-black text-xl uppercase font-bold">cualquier consulta</p>
+    </div>
+    <section id="contact" class="w-full h-96 bg-black">
+      <div class="w-auto h-full flex justify-center py-10 flex-col items-center uppercase">
+        <h3 class="text-orange-500 text-xl mb-3">enviame un msm</h3>
+        <form action="" class="flex flex-col w-3/5 h-full bg-gray-500 bg-opacity-50 px-10 py-2 rounded-md space-y-2">
+          <label class="capitalize text-white"  for="">Nombre</label>
+          <input type="text" name="" id="" class="h-10 w-40 rounded-sm bg-orange-200 placeholder:text-yellow-700 placeholder:pl-2" placeholder="Nombre">  
+          <label class="capitalize text-white"  for="">Email</label>
+          <input type="email" name="" id="" class="h-10 w-40 rounded-sm bg-orange-200 placeholder:text-yellow-700 placeholder:pl-2" placeholder="Email">
+          <label class="capitalize text-white" for="">Comentario</label>
+          <textarea name="" id="" cols="30" rows="10" class="h-60 w-full rounded-sm bg-orange-200 placeholder:text-yellow-700 placeholder:pl-2" placeholder="Que nos quieres comunicar"></textarea>
+          <button class="bg-orange-500 w-20 h-10 rounded-md">enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>  
+  <footer class="w-full h-48 bg-yellow-300 relative" id="create">
+    <div class="pt-5 pl-5 h-full">
+      <p class="text-stone-700 font-semibold uppercase ">sombre mi:</p>
+      <p class="text-stone-700 font-semibold ">Riszart Daryl -- Desarrollador Web</p>
+      <p class="text-stone-700 font-semibold">Mi portafolio <a href="https://riszart.github.io/my-portfolio-riszart/" target="_blank" class="text-blue-700">--ver portafolio--</a></p>
+      <p class="text-stone-700 font-semibold mt-6 text-xl">Mis Redes:</p>
+      <div class="flex absolute bottom-0 items-center justify-evenly w-full h-10 left-0 bg-black">
+        <a class="flex h-7 cursor-pointer" target="_blank" href="https://twitter.com/riszartvc"><img src="./svg/twitter.svg" alt="twitter de la pagina food"><p class="text-white ml-1"> / ndkjsa</p></a>
+        <a class="flex h-7 cursor-pointer" target="_blank" href="https://www.instagram.com/"><img src="./svg/instagram.svg" alt="instagram de la pagina food"><p class="text-white ml-1"> / ndkjsa</p></a>
+        <a class="flex h-7 cursor-pointer" target="_blank" href="https://music.youtube.com/playlist?list=PL0Yt0mEJED9JdP5vXRqu85XAyeI78wjKV&feature=share"><img src="./svg/icons8-youtube-music-48.svg" alt="play list del autor"><p class="text-white"> / ndkjsa</p></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/elements-food.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
