@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .article {
-  @apply w-11/12 h-128 m-auto relative lg:flex  lg:h-80 lg:rounded-md overflow-hidden
+  @apply w-96 lg:w-11/12 h-128 m-auto relative lg:flex  lg:h-80 lg:rounded-md overflow-hidden
 }
 .top-article {
   @apply w-full h-3/5 bg-cover bg-center rounded-xl lg:hover:w-full lg:hover:absolute z-10 lg:h-full lg:w-2/5 lg:rounded-none
