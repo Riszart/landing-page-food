@@ -29,3 +29,7 @@ menu.addEventListener('click', ()=>{
   document.querySelector('#list-menu').classList.toggle('hidden')
   document.querySelector('#list-menu').classList.toggle('flex')
 })
+
+document.querySelector('#deploy').addEventListener('click', ()=>{
+  document.querySelector('#data-page').classList.toggle('lg:hidden')
+})
